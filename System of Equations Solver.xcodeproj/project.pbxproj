@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8FAA42B1A624B47003175BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FAA42A1A624B47003175BE /* AppDelegate.swift */; };
+		F8FAA42D1A624B47003175BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FAA42C1A624B47003175BE /* ViewController.swift */; };
+		F8FAA4301A624B47003175BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8FAA42E1A624B47003175BE /* Main.storyboard */; };
+		F8FAA4321A624B47003175BE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8FAA4311A624B47003175BE /* Images.xcassets */; };
+		F8FAA4351A624B47003175BE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8FAA4331A624B47003175BE /* LaunchScreen.xib */; };
+		F8FAA4411A624B48003175BE /* System_of_Equations_SolverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FAA4401A624B48003175BE /* System_of_Equations_SolverTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8FAA43B1A624B48003175BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8FAA41D1A624B47003175BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8FAA4241A624B47003175BE;
+			remoteInfo = "System of Equations Solver";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F8FAA4251A624B47003175BE /* System of Equations Solver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "System of Equations Solver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8FAA4291A624B47003175BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8FAA42A1A624B47003175BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F8FAA42C1A624B47003175BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F8FAA42F1A624B47003175BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F8FAA4311A624B47003175BE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F8FAA4341A624B47003175BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F8FAA43A1A624B48003175BE /* System of Equations SolverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "System of Equations SolverTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8FAA43F1A624B48003175BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8FAA4401A624B48003175BE /* System_of_Equations_SolverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = System_of_Equations_SolverTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8FAA4221A624B47003175BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8FAA4371A624B48003175BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8FAA41C1A624B47003175BE = {
+			isa = PBXGroup;
+			children = (
+				F8FAA4271A624B47003175BE /* System of Equations Solver */,
+				F8FAA43D1A624B48003175BE /* System of Equations SolverTests */,
+				F8FAA4261A624B47003175BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8FAA4261A624B47003175BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8FAA4251A624B47003175BE /* System of Equations Solver.app */,
+				F8FAA43A1A624B48003175BE /* System of Equations SolverTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8FAA4271A624B47003175BE /* System of Equations Solver */ = {
+			isa = PBXGroup;
+			children = (
+				F8FAA42A1A624B47003175BE /* AppDelegate.swift */,
+				F8FAA42C1A624B47003175BE /* ViewController.swift */,
+				F8FAA42E1A624B47003175BE /* Main.storyboard */,
+				F8FAA4311A624B47003175BE /* Images.xcassets */,
+				F8FAA4331A624B47003175BE /* LaunchScreen.xib */,
+				F8FAA4281A624B47003175BE /* Supporting Files */,
+			);
+			path = "System of Equations Solver";
+			sourceTree = "<group>";
+		};
+		F8FAA4281A624B47003175BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8FAA4291A624B47003175BE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F8FAA43D1A624B48003175BE /* System of Equations SolverTests */ = {
+			isa = PBXGroup;
+			children = (
+				F8FAA4401A624B48003175BE /* System_of_Equations_SolverTests.swift */,
+				F8FAA43E1A624B48003175BE /* Supporting Files */,
+			);
+			path = "System of Equations SolverTests";
+			sourceTree = "<group>";
+		};
+		F8FAA43E1A624B48003175BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8FAA43F1A624B48003175BE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8FAA4241A624B47003175BE /* System of Equations Solver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8FAA4441A624B48003175BE /* Build configuration list for PBXNativeTarget "System of Equations Solver" */;
+			buildPhases = (
+				F8FAA4211A624B47003175BE /* Sources */,
+				F8FAA4221A624B47003175BE /* Frameworks */,
+				F8FAA4231A624B47003175BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "System of Equations Solver";
+			productName = "System of Equations Solver";
+			productReference = F8FAA4251A624B47003175BE /* System of Equations Solver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F8FAA4391A624B48003175BE /* System of Equations SolverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8FAA4471A624B48003175BE /* Build configuration list for PBXNativeTarget "System of Equations SolverTests" */;
+			buildPhases = (
+				F8FAA4361A624B48003175BE /* Sources */,
+				F8FAA4371A624B48003175BE /* Frameworks */,
+				F8FAA4381A624B48003175BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8FAA43C1A624B48003175BE /* PBXTargetDependency */,
+			);
+			name = "System of Equations SolverTests";
+			productName = "System of Equations SolverTests";
+			productReference = F8FAA43A1A624B48003175BE /* System of Equations SolverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8FAA41D1A624B47003175BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Anish Chopra";
+				TargetAttributes = {
+					F8FAA4241A624B47003175BE = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					F8FAA4391A624B48003175BE = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = F8FAA4241A624B47003175BE;
+					};
+				};
+			};
+			buildConfigurationList = F8FAA4201A624B47003175BE /* Build configuration list for PBXProject "System of Equations Solver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8FAA41C1A624B47003175BE;
+			productRefGroup = F8FAA4261A624B47003175BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8FAA4241A624B47003175BE /* System of Equations Solver */,
+				F8FAA4391A624B48003175BE /* System of Equations SolverTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8FAA4231A624B47003175BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8FAA4301A624B47003175BE /* Main.storyboard in Resources */,
+				F8FAA4351A624B47003175BE /* LaunchScreen.xib in Resources */,
+				F8FAA4321A624B47003175BE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8FAA4381A624B48003175BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8FAA4211A624B47003175BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8FAA42D1A624B47003175BE /* ViewController.swift in Sources */,
+				F8FAA42B1A624B47003175BE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8FAA4361A624B48003175BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8FAA4411A624B48003175BE /* System_of_Equations_SolverTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8FAA43C1A624B48003175BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8FAA4241A624B47003175BE /* System of Equations Solver */;
+			targetProxy = F8FAA43B1A624B48003175BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F8FAA42E1A624B47003175BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8FAA42F1A624B47003175BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F8FAA4331A624B47003175BE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8FAA4341A624B47003175BE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8FAA4421A624B48003175BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F8FAA4431A624B48003175BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8FAA4451A624B48003175BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "System of Equations Solver/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F8FAA4461A624B48003175BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "System of Equations Solver/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F8FAA4481A624B48003175BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "System of Equations SolverTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/System of Equations Solver.app/System of Equations Solver";
+			};
+			name = Debug;
+		};
+		F8FAA4491A624B48003175BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "System of Equations SolverTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/System of Equations Solver.app/System of Equations Solver";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8FAA4201A624B47003175BE /* Build configuration list for PBXProject "System of Equations Solver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8FAA4421A624B48003175BE /* Debug */,
+				F8FAA4431A624B48003175BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8FAA4441A624B48003175BE /* Build configuration list for PBXNativeTarget "System of Equations Solver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8FAA4451A624B48003175BE /* Debug */,
+				F8FAA4461A624B48003175BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F8FAA4471A624B48003175BE /* Build configuration list for PBXNativeTarget "System of Equations SolverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8FAA4481A624B48003175BE /* Debug */,
+				F8FAA4491A624B48003175BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8FAA41D1A624B47003175BE /* Project object */;
+}
