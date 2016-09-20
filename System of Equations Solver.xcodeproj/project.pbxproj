@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F82D23DF1A62F1B400D66FE9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F82D23DE1A62F1B400D66FE9 /* Images.xcassets */; };
 		F8FAA42B1A624B47003175BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FAA42A1A624B47003175BE /* AppDelegate.swift */; };
 		F8FAA42D1A624B47003175BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FAA42C1A624B47003175BE /* ViewController.swift */; };
 		F8FAA4301A624B47003175BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8FAA42E1A624B47003175BE /* Main.storyboard */; };
-		F8FAA4321A624B47003175BE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8FAA4311A624B47003175BE /* Images.xcassets */; };
 		F8FAA4351A624B47003175BE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8FAA4331A624B47003175BE /* LaunchScreen.xib */; };
 		F8FAA4411A624B48003175BE /* System_of_Equations_SolverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FAA4401A624B48003175BE /* System_of_Equations_SolverTests.swift */; };
+		F8FAA44B1A624BA7003175BE /* MatrixFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FAA44A1A624BA7003175BE /* MatrixFunctions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +27,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F82D23DE1A62F1B400D66FE9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "../../Matrix Fun/Matrix Fun/Images.xcassets"; sourceTree = "<group>"; };
 		F8FAA4251A624B47003175BE /* System of Equations Solver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "System of Equations Solver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8FAA4291A624B47003175BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8FAA42A1A624B47003175BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8FAA42C1A624B47003175BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F8FAA42F1A624B47003175BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F8FAA4311A624B47003175BE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F8FAA4341A624B47003175BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F8FAA43A1A624B48003175BE /* System of Equations SolverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "System of Equations SolverTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8FAA43F1A624B48003175BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8FAA4401A624B48003175BE /* System_of_Equations_SolverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = System_of_Equations_SolverTests.swift; sourceTree = "<group>"; };
+		F8FAA44A1A624BA7003175BE /* MatrixFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatrixFunctions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,8 +81,9 @@
 			children = (
 				F8FAA42A1A624B47003175BE /* AppDelegate.swift */,
 				F8FAA42C1A624B47003175BE /* ViewController.swift */,
+				F8FAA44A1A624BA7003175BE /* MatrixFunctions.swift */,
 				F8FAA42E1A624B47003175BE /* Main.storyboard */,
-				F8FAA4311A624B47003175BE /* Images.xcassets */,
+				F82D23DE1A62F1B400D66FE9 /* Images.xcassets */,
 				F8FAA4331A624B47003175BE /* LaunchScreen.xib */,
 				F8FAA4281A624B47003175BE /* Supporting Files */,
 			);
@@ -156,6 +159,8 @@
 		F8FAA41D1A624B47003175BE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0720;
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Anish Chopra";
 				TargetAttributes = {
@@ -193,8 +198,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8FAA4301A624B47003175BE /* Main.storyboard in Resources */,
+				F82D23DF1A62F1B400D66FE9 /* Images.xcassets in Resources */,
 				F8FAA4351A624B47003175BE /* LaunchScreen.xib in Resources */,
-				F8FAA4321A624B47003175BE /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +219,7 @@
 			files = (
 				F8FAA42D1A624B47003175BE /* ViewController.swift in Sources */,
 				F8FAA42B1A624B47003175BE /* AppDelegate.swift in Sources */,
+				F8FAA44B1A624BA7003175BE /* MatrixFunctions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +343,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "System of Equations Solver/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -347,6 +354,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "System of Equations Solver/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -405,6 +413,7 @@
 				F8FAA4461A624B48003175BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F8FAA4471A624B48003175BE /* Build configuration list for PBXNativeTarget "System of Equations SolverTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +422,7 @@
 				F8FAA4491A624B48003175BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
